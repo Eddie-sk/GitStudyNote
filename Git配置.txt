@@ -12,3 +12,4 @@ Home-brew cask:https://caskroom.github.io
 安装：brew tap caskroom/cask
 安装软件示例：brew cask install google-chrome
 卸载软件示例：brew cask uninstall goole-chrome
+配置忽略文件：https://github.com/github/gitignore
