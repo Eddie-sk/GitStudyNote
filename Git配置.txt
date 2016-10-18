@@ -1,0 +1,14 @@
+下载地址：http://git-scm.com/download
+配置界面：https://github.com/robbyrussell/oh-my-zsh
+依赖库：http://brew.sh/index_zh-cn.html  Homebrew
+安装：
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+卸载：1、查找cd /usr/local 2、遍历路径文件 3、卸载 sudo rm -rf Homebrew/ （删除目录）
+
+Home-brew：Mac OS平台下的软件包管理工具（安装、卸载、更新、查看、搜索）
+Home-brew cask:https://caskroom.github.io
+安装：brew tap caskroom/cask
+安装软件示例：brew cask install google-chrome
+卸载软件示例：brew cask uninstall goole-chrome

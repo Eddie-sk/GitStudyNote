@@ -1,0 +1,15 @@
+1、创建分支 git branch branch_name
+2、切换分支 git checkout branch_name
+2.1、创建并切换分支：git checkout -b branch_name
+3、删除分支  git branch -d branch_name    git branch -D branch_name（强制删除分支）
+4、版本历史：$ git branch
+         iss54
+     *   master
+         testing
+*表示当前HEAD指针所指向的分支
+5、查看每一个分支的最后一次提交 ：git branch -v
+6、—merged 和 —no-merged 过滤合并和未合并到当前分支的分支。例：查看哪些分支已经合并到当前分之：git branch --merged
+7、合并分支：git merge branch_name
+8、推送到远程服务器：git push origin branch_name
+9、从服务器抓取数据：git fetch origin
+10、删除远程服务器分支：git push origin —delete branch_name
